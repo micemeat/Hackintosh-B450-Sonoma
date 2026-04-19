@@ -100,37 +100,6 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>built-in</key>
-				<data>
-				AQ==
-				</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>built-in</key>
-				<data>
-				AQ==
-				</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>built-in</key>
-				<data>
-				AQ==
-				</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>
-				EQAAAA==
-				</data>
-			</dict>
-		</dict>
-		<key>Delete</key>
 		<dict/>
 	</dict>
 	<key>Kernel</key>
@@ -152,6 +121,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Lilu.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -168,6 +139,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>VirtualSMC.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -186,6 +159,8 @@
 				<string></string>
 				<key>ParentBundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>PlistPath</key>
+				<string>SMCSuperIO.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -204,6 +179,8 @@
 				<string></string>
 				<key>ParentBundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>PlistPath</key>
+				<string>SMCAMDProcessor.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -220,6 +197,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>RadeonSensor.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -238,6 +217,8 @@
 				<string></string>
 				<key>ParentBundlePath</key>
 				<string>RadeonSensor.kext</string>
+				<key>PlistPath</key>
+				<string>SMCRadeonGPU.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -256,22 +237,8 @@
 				<string></string>
 				<key>ParentBundlePath</key>
 				<string>RadeonSensor.kext</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string>GPU patches (RX 5600 XT)</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
+				<key>PlistPath</key>
+				<string>SMCRadeonSensors.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -288,6 +255,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>AppleALC.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -304,6 +273,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>RealtekRTL8111.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -320,6 +291,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>LucyRTL8125Ethernet.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -336,6 +309,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>AMDRyzenCPUPowerManagement.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -352,6 +327,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>AmdTscSync.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -368,6 +345,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>AppleMCEReporterDisabler.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -384,6 +363,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>RestrictEvents.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -400,6 +381,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>NVMeFix.kext/Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -416,6 +399,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>USBToolBox.kext/Contents/Info.plist</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -1596,7 +1581,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>alcid=17 agdpmod=pikera keepsyms=1 npci=0x2000 hb=0</string>
+				<string>alcid=17 agdpmod=pikera keepsyms=1 hb=0</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
@@ -1960,5 +1945,7 @@
 		<key>Unload</key>
 		<array/>
 	</dict>
+	<key>UEFIPCIExpress</key>
+	<dict/>
 </dict>
 </plist>
