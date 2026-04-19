@@ -1401,19 +1401,21 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>M0635B45888CEBJ9NN</string>
+			<string>F5KZOPZO287TX38Z6</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
 			<data>
-			F06urmmG
+			sG+XAnYZ
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1422,9 +1424,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>W11NWDCJ63</string>
+			<string>F5KZOPZO287T</string>
 			<key>SystemUUID</key>
-			<string>18D59805-CF60-4BBE-9CC4-F33A3EAE6986</string>
+			<string>F5A7F18C-5EE9-4E03-8590-0A7C91310FB0</string>
 			<key>UUID</key>
 			<string>D9671BB6-BAA7-4A22-AC22-31DE53632E0B</string>
 		</dict>
